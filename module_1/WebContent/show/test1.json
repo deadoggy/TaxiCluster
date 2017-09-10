@@ -1,0 +1,5 @@
+[
+	 {id:1,latitude:32.57489,longitude:121.16389,name:'Waitrose', type:'Waitrose',color:609128,url:'http://www.waitrose.com/content' },
+	 {id:2,latitude:31.87298,longitude:121.15989,name:'Waitrose', type:'Waitrose',color:609128,url:'http://www.waitrose.com/content' },
+	 {id:3,latitude:31.467907,longitude:121.60885,name:'Tesco', type:'Tesco',color:609128,url:'http://www.waitrose.com/content'  }
+	          ];
