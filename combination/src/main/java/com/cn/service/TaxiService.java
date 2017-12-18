@@ -20,8 +20,8 @@ public interface TaxiService {
 	public double getHausdorffDistance(List<Taxi> t1,List<Taxi> t2);
 	public void DeleteDuplicateTaxi(List<String> id);
 	public List<List<Taxi>> GetFragmentAll(List<String> list);
-	public List<List<Taxi>> clusterTrajectory(List<List<Taxi>> trajectory);
-	public List<trajectoryCluster> Trajectory_HierarchicalCluster(List<List<Taxi>> list, int num);
+	public List<List<Taxi>> clusterTrajectory(List<List<Taxi>> trajectory); /*different*/
+	public List<trajectoryCluster> Trajectory_HierarchicalCluster(List<List<Taxi>> list, int num); /*another no*/
 	public List<trajectoryCluster> InitialCluster(List<List<Taxi>> list);
 	public void CalculateCenter(List<trajectoryCluster> resultList);
 	public List<trajectoryCluster> MergeCluster(List<trajectoryCluster> list, int index1, int index2);

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="taxicluster:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/taxicluster_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="taxicluster/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="taxicluster" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

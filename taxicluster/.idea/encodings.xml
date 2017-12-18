@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tj/sse/taxicluster/dao/CharacterSGADaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tj/sse/taxicluster/dao/CharacterTraclusDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tj/sse/taxicluster/dao/ClusterDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tj/sse/taxicluster/entity/CPointCluster.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tj/sse/taxicluster/entity/Fragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/tj/sse/taxicluster/entity/SearchEntity.java" charset="GBK" />
+  </component>
+</project>

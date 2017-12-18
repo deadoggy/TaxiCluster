@@ -24,7 +24,7 @@ public class SimilarityTXT {
 	            fw.close();
 	        } catch (IOException e1) {
 	            e1.printStackTrace();
-	            System.out.println("д��ʧ��");
+	            System.out.println("??????");
 	            System.exit(-1);
 	        }
 	    }
@@ -40,14 +40,14 @@ public class SimilarityTXT {
 	            Entry entry = (Entry)iter.next();
 	           // String c = String.valueOf(list.get(i).getID()+":  "+list.get(i).getFragment())+"\r\n";
 	           double eps =Double.parseDouble(entry.getKey().toString());//EPS
-	           String Hx = entry.getValue().toString();//ÿ��EPS��Ӧ��H(X)
+	           String Hx = entry.getValue().toString();//???EPS?????H(X)
 	           String c = eps+" "+Hx+"\r\n";
 	            fw.write(c);
 	            }
 	            fw.close();
 	        } catch (IOException e1) {
 	            e1.printStackTrace();
-	            System.out.println("д��ʧ��");
+	            System.out.println("??????");
 	            System.exit(-1);
 	        }
 	    }  
@@ -63,14 +63,14 @@ public class SimilarityTXT {
 	            Entry entry = (Entry)iter.next();
 	           // String c = String.valueOf(list.get(i).getID()+":  "+list.get(i).getFragment())+"\r\n";
 	           double eps =Double.parseDouble(entry.getKey().toString());//EPS
-	           String Hx = entry.getValue().toString();//ÿ��EPS��Ӧ��H(X)
+	           String Hx = entry.getValue().toString();//???EPS?????H(X)
 	           String c = eps+" "+Hx+"\r\n";
 	            fw.write(c);
 	            }
 	            fw.close();
 	        } catch (IOException e1) {
 	            e1.printStackTrace();
-	            System.out.println("д��ʧ��");
+	            System.out.println("??????");
 	            System.exit(-1);
 	        }
 	    }
