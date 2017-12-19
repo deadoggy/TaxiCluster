@@ -3,7 +3,6 @@ package com.cn.service;
 import java.util.List;
 
 import com.cn.entity.HierarchicalCluster;
-import com.cn.entity.Taxi;
 import com.cn.entity.TurningPoint;
 
 public interface HierarchicalClusterService {
@@ -25,5 +24,4 @@ public interface HierarchicalClusterService {
 	public List<HierarchicalCluster> GetStartPointAtTenByDBSCAN();
 	public List<HierarchicalCluster> GetStartPointAtTenByAGNES();
 	public List<HierarchicalCluster> GetStartPointAtTenByKMeans();
-
 }

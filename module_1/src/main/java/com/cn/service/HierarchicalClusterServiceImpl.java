@@ -12,7 +12,6 @@ import com.cn.dao.ClusterPointDao;
 import com.cn.dao.HierarchicalClusterDao;
 import com.cn.entity.Cluster_Point;
 import com.cn.entity.HierarchicalCluster;
-import com.cn.entity.Taxi;
 import com.cn.entity.TurningPoint;
 
 @Service("hierarchicalClusterService")
@@ -432,5 +431,4 @@ public class HierarchicalClusterServiceImpl implements HierarchicalClusterServic
 		return result;
 	}
 
-	
 }
